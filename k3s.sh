@@ -41,7 +41,7 @@ user=k3s
 interface=eth0
 
 # Set the virtual IP address (VIP)
-vip=192.168.100.230
+vip=192.168.100.235
 
 # Array of master nodes
 masters=($master2 $master3)
@@ -56,7 +56,7 @@ all=($master1 $master2 $master3 $worker1 $worker2 $worker3)
 allnomaster1=($master2 $master3 $worker1 $worker2 $worker3)
 
 #Loadbalancer IP range
-lbrange=192.168.100.231-192.168.100.250
+lbrange=192.168.100.236-192.168.100.250
 
 #ssh certificate name variable
 certName=id_rsa
